@@ -5,6 +5,7 @@ import { Talents } from "./components/Talents";
 import { Benefits } from "./components/Benefits";
 import { Benchmark } from "./components/Benchmark";
 import { Pricing } from "./components/Pricing";
+import { TalentCategories } from "./components/TalentCategories";
 
 export default function Home() {
   return (
@@ -15,8 +16,8 @@ export default function Home() {
       <Talents />
       <Benefits />
       <Benchmark />
-
       <Pricing />
+      <TalentCategories />
     </main>
   );
 }
